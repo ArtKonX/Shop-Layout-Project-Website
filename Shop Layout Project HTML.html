@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Layout Project</title>
+    <link  href="Shop Layout Project CSS.css" rel="stylesheet">
+</head>
+<body>
+    <header class="menu-header">
+        <div class="container">
+            <div class="menu-header__left">
+                <img class="menu-header__icon" src="Image/icon.svg">
+                <img class="menu-header__magnifier" src="Image/magnifier.svg">
+            </div>
+            <div class="menu-header__right">
+                <img class="menu-header__menu" src="Image/menu.svg">
+                <img class="menu-header__contacts" src="Image/contacts.svg">
+                <img class="menu-header__bascet" src="Image/basket.svg">
+                <h1>5</h1>
+            </div>
+        </div>
+    </header>
+    <div class="brand">
+        <div class="brand__line">
+            <div class="brand__left">
+                <img class="brand__model" src="Image/man model.jpg">
+            </div>
+            <div class="brand__right">
+                <div class="brand__promo">
+                    <div class="brand__name-top">THE BRAND</div>
+                    <div class="brand__name-down">OF LUXERIOUS <span>FASHION</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="brand__dark brand__dark_hidden">
+            <div class="brand__menu">
+                <span class="brand__cross">&times;</span>
+                <div class="brand_tittle">
+                    MENU
+                </div>
+                <div class="brand__menu-start">
+                    <div class="brand__header">
+                        MAN
+                    </div>
+                    <a href="">Accessories</a>
+                    <a href="">Bags</a>
+                    <a href="">Denim</a>
+                    <a href="">T-Shirts</a>
+                </div>
+                <div class="brand__menu-start">
+                    <div class="brand__header">
+                        WOMAN
+                    </div>
+                    <a href="">Accessories</a>
+                    <a href="">Jackets & Coats</a>
+                    <a href="">Polos</a>
+                    <a href="">T-Shirts</a>
+                    <a href="">Shirts</a>
+                </div>
+                <div class="brand__menu-start">
+                    <div class="brand__header">
+                        KIDS
+                    </div>
+                    <a href="">Accessories</a>
+                    <a href="">Jackets & Coats</a>
+                    <a href="">Polos</a>
+                    <a href="">T-Shirts</a>
+                    <a href="">Shirts</a>
+                    <a href="">Bags</a>
+                </div>
+            </div>
+        </div>
+        <div class="brand__contacts-dark brand__contacts-dark_hidden">
+            <div class="brand-menu-header__contacts">
+                <span class="brand__contacts-cross">&times;</span>
+                <div class="brand__contacts-tittle">
+                    Учётная запись
+                </div>
+                <label class="brand__contacts-email">
+                    <form id="form-email-password" action="#">
+                        Email<input placeholder="Email" type="email">
+                    </form>
+                </label>
+                <label class="brand__contacts-pasword">
+                    <form id="form-email-password" action="#">
+                        Password<input placeholder="Пароль" type="password">
+                    </form>
+                </label>
+                <div class="brand__contacts-button">
+                    <button type="button" form="form-email-password">Войти</button>
+                    <button type="reset" form="form-email-password">Стереть</button>
+                </div>      
+            </div>
+        </div>
+        <div class="brand__basket-dark brand__basket-dark_hidden">
+            <div class="brand-menu-header__basked">
+                <span class="brand__cross-basked">&times;</span>
+                <div class="brand__basket-buy">
+                    Ваши купленные товары:
+                </div>
+                <div class="brand__basked-all-buy">
+                    <span>5</span> позиций в корзине:
+                </div>
+                <ol>
+                    <li>Куртка</li>
+                    <li>Штаны</li>
+                    <li>Футболка</li>
+                    <li>Шорты</li>
+                    <li>Ботинки</li>
+                </ol>
+                <div class="brand__basked-buttons">
+                    <button type="button">Купить</button>
+                    <button type="button">Удалить</button>
+                </div>
+            </div>     
+        </div>
+        <div class="brand__magnifier-dark brand__magnifier-dark_hidden">
+            <form class="brand-menu-header__magnifier-full brand-menu-header__magnifier-full_hidden" action="#">
+                <input type="text" placeholder="Введите запрос">
+                <span class="brand-menu-header__cross-magnidier">&times;</span>
+            </form>
+        </div>
+    </div>
+    <div class="offer container">
+        <div class="offer__woman">
+            <img class="offer__img-woman" src="Image/woman.png">
+            <div class="offer__tittle">
+                <div class="offer__tittle-top">30% OFF</div>
+                <div class="offer__tittle-bottom">FOR WOMEN</div>
+            </div>
+        </div>
+        <div class="offer__man">
+            <img class="offer__img-man" src="Image/man.png">
+            <div class="offer__tittle">
+                <div class="offer__tittle-top">HOT DEAL</div>
+                <div class="offer__tittle-bottom">FOR MEN</div>
+            </div>
+        </div>
+        <div class="offer__kids">
+            <img class="offer__img-kids" src="Image/kids.png">
+            <div class="offer__tittle">
+                <div class="offer__tittle-top">NEW ARRIVALS</div>
+                <div class="offer__tittle-bottom">FOR KIDS</div>
+            </div>
+        </div>
+        <div class="offer__accesories">
+            <img class="offer__img-accesories" src="Image/accesories.png">
+            <div class="offer__tittle">
+                <div class="offer__tittle-top">LUXIROUS & TRENDY</div>
+                <div class="offer__tittle-bottom">ACCESORIES</div>
+            </div>
+        </div>
+    </div>
+    <div class="fetured container">
+        <div class="fetured__tittle-top">
+            Fetured Items
+        </div>
+        <div class="fetured__tittle-bottom">
+            Shop for items based on what we featured in this week
+        </div>
+        <div class="fetured__icon">
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/man one fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/woman one fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/man two fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/man three fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/woman two fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+            <div class="fetured__img">
+                <div class="fetured__img-wrap">
+                    <img src="Image/woman three fetured.png">
+                    <div class="fetured__img-dark">
+                        <button>
+                            <img src="Image/basket fetured.svg">
+                            <p>Add to Cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="fetured__name">
+                    ELLERY X M'O CAPSULE
+                </div>
+                <div class="fetured__text">
+                    Known for her sculptural takes on traditional<br>tailoring, Australian arbiter of cool Kym Ellery teams<br>up with Moda Operandi.
+                </div>
+                <div class="fetured__price">
+                    $52.00
+                </div>
+            </div>
+        </div>
+        <div class="fetured__button">
+            <button>Browse All Product</button>
+        </div>
+    </div>
+    <div class="services">
+        <div class="container">
+            <div class="services__all">
+                <div class="services__img">
+                    <img src="Image/car.svg">
+                </div>
+                <div class="services__title-top">
+                    Free Delivery
+                </div>
+                <div class="servies__title-bottom">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="services__all">
+                <div class="services__img">
+                    <img src="Image/sale.svg">
+                </div>
+                <div class="services__title-top">
+                    Sales & discounts
+                </div>
+                <div class="servies__title-bottom">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+            <div class="services__all">
+                <div class="services__img">
+                    <img src="Image/king.svg">
+                </div>
+                <div class="services__title-top">
+                    Quality assurance
+                </div>
+                <div class="servies__title-bottom servies__title-bottom_no-margin">
+                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="container">
+            <div class="subscribe__left-ad-block">
+                <img class="subscribe__ad-face" src="Image/face ad.png">
+                <div class="subscribe__text-title-all">
+                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                </div>
+            </div>
+            <div class="subscribe__right-ad-block">
+                <div class="subscribe__title-top">
+                    SUBSCRIBE 
+                </div>
+                <div class="subscribe__title-bottom">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <div class="subscribe__form">
+                    <form action="" id="subscribe__form-all">
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>Subscribe</button>
+                        <button class="subscribe__button-reset" type="reset" form="subscribe__form-all">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <div class="container">
+            <div class="copyright__icons">
+                <div class="icon-facebook"></div>
+                <div class="icon-instagram"></div>
+                <div class="icon-p"></div>
+                <div class="icon-twitter"></div>
+            </div>
+            <div class="copyraght__footer">
+                © 2021  Brand  All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="Shop Layout Project JS.js"></script>
+</body>
+</html>
