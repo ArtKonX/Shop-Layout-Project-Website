@@ -95,6 +95,7 @@ body{
     }
 
 }
+
 @media(min-width: 1600px){
 
     .container{
@@ -700,9 +701,11 @@ body{
 }
 
 @media(min-width:1600px){
+
     .offer{
         gap: 30px;
     }
+    
 }
 
 .fetured__tittle-top{
